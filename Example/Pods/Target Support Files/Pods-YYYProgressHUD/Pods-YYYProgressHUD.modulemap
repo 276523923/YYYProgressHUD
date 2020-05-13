@@ -1,0 +1,6 @@
+framework module Pods_YYYProgressHUD {
+  umbrella header "Pods-YYYProgressHUD-umbrella.h"
+
+  export *
+  module * { export * }
+}

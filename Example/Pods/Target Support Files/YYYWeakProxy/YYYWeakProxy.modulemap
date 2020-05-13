@@ -1,0 +1,6 @@
+framework module YYYWeakProxy {
+  umbrella header "YYYWeakProxy-umbrella.h"
+
+  export *
+  module * { export * }
+}

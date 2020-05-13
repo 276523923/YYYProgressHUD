@@ -1,0 +1,23 @@
+PODS:
+  - YYYProgressHUD (1.0.0):
+    - YYYWeakProxy
+  - YYYWeakProxy (1.0.0)
+
+DEPENDENCIES:
+  - YYYProgressHUD (from `../`)
+
+SPEC REPOS:
+  "git@gitlab.com:276523923/YYYPrivatePods.git":
+    - YYYWeakProxy
+
+EXTERNAL SOURCES:
+  YYYProgressHUD:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YYYProgressHUD: 9900754183d522ddf8f9bc7046c00082aa760314
+  YYYWeakProxy: 29242cc6b28873474e66146df1a6f3091009d8c5
+
+PODFILE CHECKSUM: 2e30aa7cfce2897a3e63b7213dd137b216febe9a
+
+COCOAPODS: 1.8.3
