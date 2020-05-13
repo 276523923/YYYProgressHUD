@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.version      = '1.0.0'
   s.summary      = 'YYYProgressHUD'
 
-  s.description  = '加载，文字提示'
+  s.description  = 'YYYProgressHUD 加载，文字提示'
 
   s.homepage         = 'https://github.com/276523923/YYYProgressHUD.git'
   s.license          = { :type => "MIT", :file => "LICENSE" }
@@ -25,8 +25,7 @@ Pod::Spec.new do |s|
 
   s.source_files  = "YYYProgressHUD/Classes/**/*.{h,m}"
   s.public_header_files = "YYYProgressHUD/Classes/**/*.h"
-  s.dependency 'YYYWeakProxy'
-
+  s.dependency 'YYYWeakProxy', '~> 1.0.0'
   # s.resources = "YYYProgressHUD/Assets/**/*"
 #  s.resource_bundles = {
 #    'YYYProgressHUD' => ["YYYProgressHUD/Assets/**/*"]

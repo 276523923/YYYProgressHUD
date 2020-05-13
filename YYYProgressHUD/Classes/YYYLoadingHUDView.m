@@ -84,7 +84,7 @@
 
 #pragma mark - get,set
 
-UIColor *c_backgroundColor = nil;
+static UIColor *c_backgroundColor = nil;
 + (UIColor *)backgroundColor {
     if (!c_backgroundColor) {
         if (@available(iOS 13, *)) {

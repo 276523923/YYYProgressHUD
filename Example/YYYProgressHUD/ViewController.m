@@ -21,8 +21,8 @@
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-//    [YYYProgressHUD showLoadingHUD];
-    [YYYProgressHUD showTextHUDAddedTo:self.view text:@"哈哈哈"];
+    [YYYProgressHUD showLoadingHUD];
+//    [YYYProgressHUD showTextHUDAddedTo:self.view text:@"哈哈哈"];
 
 }
 

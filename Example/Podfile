@@ -1,4 +1,6 @@
 #use_frameworks!
+source 'https://github.com/CocoaPods/Specs'
 target 'YYYProgressHUD' do
+#  pod 'YYYWeakProxy'
   pod 'YYYProgressHUD', :path => '../'
 end

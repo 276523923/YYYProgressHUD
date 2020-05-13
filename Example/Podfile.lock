@@ -1,13 +1,13 @@
 PODS:
-  - YYYProgressHUD (1.0.3):
-    - YYYWeakProxy
+  - YYYProgressHUD (1.0.0):
+    - YYYWeakProxy (~> 1.0.0)
   - YYYWeakProxy (1.0.0)
 
 DEPENDENCIES:
   - YYYProgressHUD (from `../`)
 
 SPEC REPOS:
-  "git@gitlab.com:276523923/YYYPrivatePods.git":
+  https://github.com/CocoaPods/Specs.git:
     - YYYWeakProxy
 
 EXTERNAL SOURCES:
@@ -15,9 +15,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YYYProgressHUD: b1e55e761ce0fc2904b249340b64be494e358098
-  YYYWeakProxy: 29242cc6b28873474e66146df1a6f3091009d8c5
+  YYYProgressHUD: f6faecc57d054a5690048e843d2b738508b11fde
+  YYYWeakProxy: 79afa120824e672c0f9530d843a1c9e2fa33dff9
 
-PODFILE CHECKSUM: 3542f56a9f5248513447aae3c41cd56d49de8787
+PODFILE CHECKSUM: 1eeceea033944c737215d61ed6b2ee2ab026497c
 
 COCOAPODS: 1.9.1

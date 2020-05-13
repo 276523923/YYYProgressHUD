@@ -1,8 +1,8 @@
 {
   "name": "YYYProgressHUD",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "summary": "YYYProgressHUD",
-  "description": "加载，文字提示",
+  "description": "YYYProgressHUD 加载，文字提示",
   "homepage": "https://github.com/276523923/YYYProgressHUD.git",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/276523923/YYYProgressHUD.git",
-    "tag": "1.0.3"
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "8.0"
@@ -23,7 +23,7 @@
   "public_header_files": "YYYProgressHUD/Classes/**/*.h",
   "dependencies": {
     "YYYWeakProxy": [
-
+      "~> 1.0.0"
     ]
   }
 }

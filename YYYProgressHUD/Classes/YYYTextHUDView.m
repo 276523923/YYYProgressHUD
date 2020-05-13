@@ -81,8 +81,8 @@
     return self.messageLabel.text;
 }
 
-UIColor *c_backgroundColor = nil;
-UIColor *c_textColor = nil;
+static UIColor *c_backgroundColor = nil;
+static UIColor *c_textColor = nil;
 
 + (UIColor *)backgroundColor {
     if (!c_backgroundColor) {
