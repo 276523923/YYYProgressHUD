@@ -7,35 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		37222CE23EAB1A43F0BB9601E5B91602 /* YYYProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F157481E57CB2BD11396DA70A3252314 /* YYYProgressHUD-dummy.m */; };
-		37C487015055891A372819A29F6BBF8C /* YYYLoadingHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B395AB3CABAF991F6CB65C8E4BF6A2C /* YYYLoadingHUDView.m */; };
-		3A658F8896322A0F42DAB32069B18622 /* YYYTextHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = C750D88C0C0B235904F3AF8B44D3EA10 /* YYYTextHUDView.m */; };
-		3D28368829031DF465730242048DD6C3 /* YYYIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA92C83CEDA22F2FA4C84198920EF215 /* YYYIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46F773DADFBE2B15C7B598FB2C304CEB /* YYYWeakProxy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E16AC8725CAB15211B897541D72EE13 /* YYYWeakProxy-dummy.m */; };
-		4EB2EB3BF726B080DBD433034AE5DEA0 /* YYYProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9B3FB281D4523F86982C55D0FE69A2 /* YYYProgressHUD.m */; };
-		591C4B3140D90A93756DA5E8C23B06E7 /* YYYWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = DF2B4E14DBF93A9EE2053A9621865A2C /* YYYWeakProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7E3C24D7E1D116F32A68F9D3CA130E11 /* z1_27@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F25EDFF581336FE0E2486F3C987CDB81 /* z1_27@3x.png */; };
-		A19BE51ECA036DAE9C6896BCDE4BBB42 /* z1_27.png in Resources */ = {isa = PBXBuildFile; fileRef = 4778C79E4138AB8DF0D65F74F993B20F /* z1_27.png */; };
-		A3A6FAACB8B7A4840E0718F28DD32AC0 /* angle-mask@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00857D37E373B576F4C717632DFDADBF /* angle-mask@3x.png */; };
-		AE5CACB664D0D93030881AFCAEBB1CDE /* YYYIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 763C72982C6FF42E754FF7FEA9958FE2 /* YYYIndefiniteAnimatedView.m */; };
-		B1891112C3352905EE495CE5C13826DD /* angle-mask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ADA41BF0C8F10B7771D63DC2DE3AACE /* angle-mask@2x.png */; };
-		B39C202BC442618DB3C041557CADDB6C /* angle-mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 10B4D4F31F90653B5125E27359D0741D /* angle-mask.png */; };
-		B3CBD32DDA82FE13DA87850541D86420 /* YYYProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 39E2E48529938443709E04C74C56DD1E /* YYYProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BADC984B18F422F6CB0332F5BB63FD02 /* YYYTextHUDView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E64D255EB867505B817A73FB2E66B8F /* YYYTextHUDView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BC3524A2751EB6F1CE7024A787CF462B /* Pods-YYYProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA811F84455370263067209549B127EA /* Pods-YYYProgressHUD-dummy.m */; };
-		C51504CAABDD0BE6904E0A446FFD0EC3 /* YYYLoadingHUDView.h in Headers */ = {isa = PBXBuildFile; fileRef = EBAF4B318FE8EA212B022DAA10A2678A /* YYYLoadingHUDView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CC3470D416E71ACDAA4862F7305B4638 /* z1_27@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07C68F8AA29F0F3AD4264CFFF2EF7DE5 /* z1_27@2x.png */; };
-		DA77EC1AA53CEE2C7563641548416590 /* YYYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDD81BB7E07E5CF4AFA229C21D5DE24 /* YYYWeakProxy.m */; };
+		15731248649057DA11C98B9C4461B5C3 /* YYYWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = A6AB54451E0B39ADAF3A1AF7B87D8A79 /* YYYWeakProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		29DDEFAAAB5E94AF559D1809085BB3C6 /* YYYLoadingHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A89CBAB91CAD1CF735C373002C21492 /* YYYLoadingHUDView.m */; };
+		681B2E949646EF6B51FBBDAA85EF2117 /* YYYIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = B1B79F3197881F7A1D5EEA5B5F9885DC /* YYYIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6C32452663DC3E86677E319FE4AE0A19 /* YYYTextHUDView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FD8E3399A29A49D4A9CD18019D342C5 /* YYYTextHUDView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7022586181DB0D6BCC3C773ADF53BEAF /* YYYTextHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50ECE214E0988A773DF28098C70706C1 /* YYYTextHUDView.m */; };
+		8B6695A1D6BAD286E8FEAE29D22E1D1A /* YYYProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 311545F0DDF5AEC5DDB5AFE43C9332A6 /* YYYProgressHUD-dummy.m */; };
+		BAA0DE67D80025AAC65BD88987192E88 /* YYYWeakProxy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C9AD2EC2C57A5BF97A65E14A8BEE13 /* YYYWeakProxy-dummy.m */; };
+		BC3524A2751EB6F1CE7024A787CF462B /* Pods-YYYProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D404F83EA72FFE896C79E57058C6228 /* Pods-YYYProgressHUD-dummy.m */; };
+		BD83D4D4A50410CD97002310E8FDABED /* YYYProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C7DBCF5102ECF9D867C8667F4E8ECD /* YYYProgressHUD.m */; };
+		FC4365032417D2DDCE5DE26F4D8A98BF /* YYYIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE75C6E3AE693BF9BEC0E47E9D35430 /* YYYIndefiniteAnimatedView.m */; };
+		FC84A23B269E0EBD9577E373D310895F /* YYYLoadingHUDView.h in Headers */ = {isa = PBXBuildFile; fileRef = 64649687B5FD994EBD20185D3A75FA63 /* YYYLoadingHUDView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FD1B54B6D7DD386ABAD3E2132A9D52A5 /* YYYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 453481FBCA0F4DF6EA2AEFFAAC2FB64F /* YYYWeakProxy.m */; };
+		FE4189AB8951E67E7D7932B1F6D16854 /* YYYProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB389DC5670647CB5DDA9A0EBF8CE1A /* YYYProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3714B8EE653A63513355E5C14BCA9E8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8D1E7F5518353D00C9E760A313CC46E4;
-			remoteInfo = "YYYProgressHUD-YYYProgressHUD";
-		};
 		414259731EEF53FC5B6B51FADFE7FCB4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -50,7 +37,7 @@
 			remoteGlobalIDString = B4D5BE8A3ABA0A5169CFFCF3C5FC0B21;
 			remoteInfo = YYYProgressHUD;
 		};
-		C52B11B617C473D747416458264E8C4A /* PBXContainerItemProxy */ = {
+		BD8D77694EA1FA4ACB256365D00FBE27 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -60,54 +47,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00857D37E373B576F4C717632DFDADBF /* angle-mask@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "angle-mask@3x.png"; path = "YYYProgressHUD/Assets/angle-mask@3x.png"; sourceTree = "<group>"; };
-		07C68F8AA29F0F3AD4264CFFF2EF7DE5 /* z1_27@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "z1_27@2x.png"; path = "YYYProgressHUD/Assets/z1_27@2x.png"; sourceTree = "<group>"; };
-		0E16AC8725CAB15211B897541D72EE13 /* YYYWeakProxy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYYWeakProxy-dummy.m"; sourceTree = "<group>"; };
-		10B4D4F31F90653B5125E27359D0741D /* angle-mask.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "angle-mask.png"; path = "YYYProgressHUD/Assets/angle-mask.png"; sourceTree = "<group>"; };
-		1ABFECD99310FB6BC9A74277B77416DF /* Pods-YYYProgressHUD-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YYYProgressHUD-acknowledgements.plist"; sourceTree = "<group>"; };
-		1BDD81BB7E07E5CF4AFA229C21D5DE24 /* YYYWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYYWeakProxy.m; path = YYYWeakProxy/Classes/YYYWeakProxy.m; sourceTree = "<group>"; };
-		29A96761113F39F9511BF3B0FA8C2F18 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0A89CBAB91CAD1CF735C373002C21492 /* YYYLoadingHUDView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYYLoadingHUDView.m; path = YYYProgressHUD/Classes/YYYLoadingHUDView.m; sourceTree = "<group>"; };
+		311545F0DDF5AEC5DDB5AFE43C9332A6 /* YYYProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYYProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		316C97EAD219230A096B2727FBE83B3D /* libYYYProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYYYProgressHUD.a; path = libYYYProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		378E68C0F9952F889BCCCEDA301AD4F5 /* libPods-YYYProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-YYYProgressHUD.a"; path = "libPods-YYYProgressHUD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		388D89DD5466B65412E76CB28FF245B4 /* YYYWeakProxy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYYWeakProxy.xcconfig; sourceTree = "<group>"; };
-		39E2E48529938443709E04C74C56DD1E /* YYYProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYYProgressHUD.h; path = YYYProgressHUD/Classes/YYYProgressHUD.h; sourceTree = "<group>"; };
-		3ADA41BF0C8F10B7771D63DC2DE3AACE /* angle-mask@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "angle-mask@2x.png"; path = "YYYProgressHUD/Assets/angle-mask@2x.png"; sourceTree = "<group>"; };
 		403C8872378A6285092E8B0DC64A7FFD /* libYYYWeakProxy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYYYWeakProxy.a; path = libYYYWeakProxy.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		4778C79E4138AB8DF0D65F74F993B20F /* z1_27.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = z1_27.png; path = YYYProgressHUD/Assets/z1_27.png; sourceTree = "<group>"; };
-		50AF92BEBD5C12BB1C80AAFCA82569B5 /* YYYProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYYProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		58F67033F4E513103611AC6E671DFC5B /* ResourceBundle-YYYProgressHUD-YYYProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-YYYProgressHUD-YYYProgressHUD-Info.plist"; sourceTree = "<group>"; };
-		5EE7F00080652759BA82E73A78058DB9 /* Pods-YYYProgressHUD-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YYYProgressHUD-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6F279E718525B69B5A17DEBB0D4C05C7 /* Pods-YYYProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YYYProgressHUD.debug.xcconfig"; sourceTree = "<group>"; };
-		716AF35F98459A8DEE1D5893732688B5 /* YYYWeakProxy-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYYWeakProxy-prefix.pch"; sourceTree = "<group>"; };
-		763C72982C6FF42E754FF7FEA9958FE2 /* YYYIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYYIndefiniteAnimatedView.m; path = YYYProgressHUD/Classes/YYYIndefiniteAnimatedView.m; sourceTree = "<group>"; };
-		7B395AB3CABAF991F6CB65C8E4BF6A2C /* YYYLoadingHUDView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYYLoadingHUDView.m; path = YYYProgressHUD/Classes/YYYLoadingHUDView.m; sourceTree = "<group>"; };
-		8059F180046BB97B51D3DE2D438CB298 /* Pods-YYYProgressHUD-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YYYProgressHUD-resources.sh"; sourceTree = "<group>"; };
-		8FBDC4F7EF20DCA052620E7E30BA97F6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		453481FBCA0F4DF6EA2AEFFAAC2FB64F /* YYYWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYYWeakProxy.m; path = YYYWeakProxy/Classes/YYYWeakProxy.m; sourceTree = "<group>"; };
+		49C7DBCF5102ECF9D867C8667F4E8ECD /* YYYProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYYProgressHUD.m; path = YYYProgressHUD/Classes/YYYProgressHUD.m; sourceTree = "<group>"; };
+		4AB389DC5670647CB5DDA9A0EBF8CE1A /* YYYProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYYProgressHUD.h; path = YYYProgressHUD/Classes/YYYProgressHUD.h; sourceTree = "<group>"; };
+		4EAD78D42E9DB28A3681A0A808A12F2B /* YYYWeakProxy-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYYWeakProxy-prefix.pch"; sourceTree = "<group>"; };
+		4FD8E3399A29A49D4A9CD18019D342C5 /* YYYTextHUDView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYYTextHUDView.h; path = YYYProgressHUD/Classes/YYYTextHUDView.h; sourceTree = "<group>"; };
+		50ECE214E0988A773DF28098C70706C1 /* YYYTextHUDView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYYTextHUDView.m; path = YYYProgressHUD/Classes/YYYTextHUDView.m; sourceTree = "<group>"; };
+		5F1B4BA8C03C43CE0AA1F6E541BD1950 /* Pods-YYYProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YYYProgressHUD.debug.xcconfig"; sourceTree = "<group>"; };
+		64649687B5FD994EBD20185D3A75FA63 /* YYYLoadingHUDView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYYLoadingHUDView.h; path = YYYProgressHUD/Classes/YYYLoadingHUDView.h; sourceTree = "<group>"; };
+		78A94D4350B133A92247B6595816BAE4 /* YYYProgressHUD.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YYYProgressHUD.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7D404F83EA72FFE896C79E57058C6228 /* Pods-YYYProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YYYProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		8EC16E52A07611CFB12EC6AFE3B1B3E7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8EE75C6E3AE693BF9BEC0E47E9D35430 /* YYYIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYYIndefiniteAnimatedView.m; path = YYYProgressHUD/Classes/YYYIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		93D3CA1D23D5F639E5C5D5407C8210AA /* YYYProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYYProgressHUD.release.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E64D255EB867505B817A73FB2E66B8F /* YYYTextHUDView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYYTextHUDView.h; path = YYYProgressHUD/Classes/YYYTextHUDView.h; sourceTree = "<group>"; };
-		AA92C83CEDA22F2FA4C84198920EF215 /* YYYIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYYIndefiniteAnimatedView.h; path = YYYProgressHUD/Classes/YYYIndefiniteAnimatedView.h; sourceTree = "<group>"; };
-		AE9A139A8A70AF9857ADEDCFE7368AD3 /* YYYProgressHUD.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = YYYProgressHUD.bundle; path = "YYYProgressHUD-YYYProgressHUD.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6982AB3649517A86ECF51DEA1F612DA /* Pods-YYYProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YYYProgressHUD.release.xcconfig"; sourceTree = "<group>"; };
-		BA811F84455370263067209549B127EA /* Pods-YYYProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YYYProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		C750D88C0C0B235904F3AF8B44D3EA10 /* YYYTextHUDView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYYTextHUDView.m; path = YYYProgressHUD/Classes/YYYTextHUDView.m; sourceTree = "<group>"; };
-		CE2BB6CFC4FAB2C55014162F1D84AC8A /* YYYProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYYProgressHUD.xcconfig; sourceTree = "<group>"; };
-		DF2B4E14DBF93A9EE2053A9621865A2C /* YYYWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYYWeakProxy.h; path = YYYWeakProxy/Classes/YYYWeakProxy.h; sourceTree = "<group>"; };
-		EBAF4B318FE8EA212B022DAA10A2678A /* YYYLoadingHUDView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYYLoadingHUDView.h; path = YYYProgressHUD/Classes/YYYLoadingHUDView.h; sourceTree = "<group>"; };
-		F157481E57CB2BD11396DA70A3252314 /* YYYProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYYProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		F25EDFF581336FE0E2486F3C987CDB81 /* z1_27@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "z1_27@3x.png"; path = "YYYProgressHUD/Assets/z1_27@3x.png"; sourceTree = "<group>"; };
-		FC9B3FB281D4523F86982C55D0FE69A2 /* YYYProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYYProgressHUD.m; path = YYYProgressHUD/Classes/YYYProgressHUD.m; sourceTree = "<group>"; };
-		FECF01A0CDA652FCC798620DC767B4EC /* YYYProgressHUD.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YYYProgressHUD.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6AB54451E0B39ADAF3A1AF7B87D8A79 /* YYYWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYYWeakProxy.h; path = YYYWeakProxy/Classes/YYYWeakProxy.h; sourceTree = "<group>"; };
+		A71205663BF38D3B2F0277F34749EAE2 /* Pods-YYYProgressHUD-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YYYProgressHUD-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B1B79F3197881F7A1D5EEA5B5F9885DC /* YYYIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYYIndefiniteAnimatedView.h; path = YYYProgressHUD/Classes/YYYIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		B2C9AD2EC2C57A5BF97A65E14A8BEE13 /* YYYWeakProxy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYYWeakProxy-dummy.m"; sourceTree = "<group>"; };
+		BAEE02FE64900673FE98B67F214F282E /* Pods-YYYProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YYYProgressHUD.release.xcconfig"; sourceTree = "<group>"; };
+		C0A8385F4F5E24F11DEECFD024E9DDB6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C6C63C54667A072EBFB77D9A0FB30F2B /* YYYWeakProxy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYYWeakProxy.release.xcconfig; sourceTree = "<group>"; };
+		CD161D829A86098A429BCEF5A12121F3 /* YYYProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYYProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
+		D5A377BFAEBCA804E967C782BBC67942 /* YYYProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYYProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		DC613234642A6A7B37E0DA939F41CE81 /* YYYWeakProxy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYYWeakProxy.debug.xcconfig; sourceTree = "<group>"; };
+		FB60FE9AEBD2CA6DB9C27C660C4C6F76 /* Pods-YYYProgressHUD-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YYYProgressHUD-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2AFE2BC5186077EE2D64BED21B1459AC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6981C203AF10E501596F6CD32CA76C08 /* Frameworks */ = {
+		0D1901617984F6931D7DB7E937ACAC17 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -121,7 +94,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		89C752AE7F0911794FC76E619B889FA8 /* Frameworks */ = {
+		DDF7CDD18C81F2B26B049728D580E55E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -131,127 +104,113 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C486AC69362BB6DE6713A1305CEE452 /* Support Files */ = {
+		21B1DDE8DBA4189BE054DBA64735E662 /* Pods-YYYProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				58F67033F4E513103611AC6E671DFC5B /* ResourceBundle-YYYProgressHUD-YYYProgressHUD-Info.plist */,
-				CE2BB6CFC4FAB2C55014162F1D84AC8A /* YYYProgressHUD.xcconfig */,
-				F157481E57CB2BD11396DA70A3252314 /* YYYProgressHUD-dummy.m */,
-				50AF92BEBD5C12BB1C80AAFCA82569B5 /* YYYProgressHUD-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YYYProgressHUD";
-			sourceTree = "<group>";
-		};
-		0F17E3ABFDE4258877DAD6AC9F2AAE1C /* YYYWeakProxy */ = {
-			isa = PBXGroup;
-			children = (
-				DF2B4E14DBF93A9EE2053A9621865A2C /* YYYWeakProxy.h */,
-				1BDD81BB7E07E5CF4AFA229C21D5DE24 /* YYYWeakProxy.m */,
-				35A17377AC0A8D40F62E95DC6B9898D8 /* Support Files */,
-			);
-			name = YYYWeakProxy;
-			path = YYYWeakProxy;
-			sourceTree = "<group>";
-		};
-		1716800034E13367BBC0F703236554CE /* Pods-YYYProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				5EE7F00080652759BA82E73A78058DB9 /* Pods-YYYProgressHUD-acknowledgements.markdown */,
-				1ABFECD99310FB6BC9A74277B77416DF /* Pods-YYYProgressHUD-acknowledgements.plist */,
-				BA811F84455370263067209549B127EA /* Pods-YYYProgressHUD-dummy.m */,
-				8059F180046BB97B51D3DE2D438CB298 /* Pods-YYYProgressHUD-resources.sh */,
-				6F279E718525B69B5A17DEBB0D4C05C7 /* Pods-YYYProgressHUD.debug.xcconfig */,
-				B6982AB3649517A86ECF51DEA1F612DA /* Pods-YYYProgressHUD.release.xcconfig */,
+				A71205663BF38D3B2F0277F34749EAE2 /* Pods-YYYProgressHUD-acknowledgements.markdown */,
+				FB60FE9AEBD2CA6DB9C27C660C4C6F76 /* Pods-YYYProgressHUD-acknowledgements.plist */,
+				7D404F83EA72FFE896C79E57058C6228 /* Pods-YYYProgressHUD-dummy.m */,
+				5F1B4BA8C03C43CE0AA1F6E541BD1950 /* Pods-YYYProgressHUD.debug.xcconfig */,
+				BAEE02FE64900673FE98B67F214F282E /* Pods-YYYProgressHUD.release.xcconfig */,
 			);
 			name = "Pods-YYYProgressHUD";
 			path = "Target Support Files/Pods-YYYProgressHUD";
 			sourceTree = "<group>";
 		};
-		35A17377AC0A8D40F62E95DC6B9898D8 /* Support Files */ = {
+		29BEF1CB0F82532C3A4AC5E64E150A24 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				388D89DD5466B65412E76CB28FF245B4 /* YYYWeakProxy.xcconfig */,
-				0E16AC8725CAB15211B897541D72EE13 /* YYYWeakProxy-dummy.m */,
-				716AF35F98459A8DEE1D5893732688B5 /* YYYWeakProxy-prefix.pch */,
+				21B1DDE8DBA4189BE054DBA64735E662 /* Pods-YYYProgressHUD */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/YYYWeakProxy";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		399CAD0CB346CCAFA4062736571601C0 /* Pod */ = {
+		2E38A3B444587FC8B43DD39467CA70BC /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				8FBDC4F7EF20DCA052620E7E30BA97F6 /* LICENSE */,
-				29A96761113F39F9511BF3B0FA8C2F18 /* README.md */,
-				FECF01A0CDA652FCC798620DC767B4EC /* YYYProgressHUD.podspec */,
+				C0A8385F4F5E24F11DEECFD024E9DDB6 /* LICENSE */,
+				8EC16E52A07611CFB12EC6AFE3B1B3E7 /* README.md */,
+				78A94D4350B133A92247B6595816BAE4 /* YYYProgressHUD.podspec */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		4ACB04F5539ED25236197517B1C3795C /* YYYWeakProxy */ = {
+			isa = PBXGroup;
+			children = (
+				A6AB54451E0B39ADAF3A1AF7B87D8A79 /* YYYWeakProxy.h */,
+				453481FBCA0F4DF6EA2AEFFAAC2FB64F /* YYYWeakProxy.m */,
+				F9CC362027EE6C5EFF47084EE1E0A5A4 /* Support Files */,
+			);
+			name = YYYWeakProxy;
+			path = YYYWeakProxy;
+			sourceTree = "<group>";
+		};
+		576686791165A05A8E53764155C76778 /* YYYProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				B1B79F3197881F7A1D5EEA5B5F9885DC /* YYYIndefiniteAnimatedView.h */,
+				8EE75C6E3AE693BF9BEC0E47E9D35430 /* YYYIndefiniteAnimatedView.m */,
+				64649687B5FD994EBD20185D3A75FA63 /* YYYLoadingHUDView.h */,
+				0A89CBAB91CAD1CF735C373002C21492 /* YYYLoadingHUDView.m */,
+				4AB389DC5670647CB5DDA9A0EBF8CE1A /* YYYProgressHUD.h */,
+				49C7DBCF5102ECF9D867C8667F4E8ECD /* YYYProgressHUD.m */,
+				4FD8E3399A29A49D4A9CD18019D342C5 /* YYYTextHUDView.h */,
+				50ECE214E0988A773DF28098C70706C1 /* YYYTextHUDView.m */,
+				2E38A3B444587FC8B43DD39467CA70BC /* Pod */,
+				A30FCF94F4F937B9EFF56444069B711D /* Support Files */,
+			);
+			name = YYYProgressHUD;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		65161B29C5264F5DD7DC9CAE6559C6DA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0F17E3ABFDE4258877DAD6AC9F2AAE1C /* YYYWeakProxy */,
+				4ACB04F5539ED25236197517B1C3795C /* YYYWeakProxy */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		810D15DC85A97A274EB08E9A59621190 /* Products */ = {
+		6EB4CF95281585DFE8E628B250BFFF99 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				576686791165A05A8E53764155C76778 /* YYYProgressHUD */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A30FCF94F4F937B9EFF56444069B711D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				311545F0DDF5AEC5DDB5AFE43C9332A6 /* YYYProgressHUD-dummy.m */,
+				D5A377BFAEBCA804E967C782BBC67942 /* YYYProgressHUD-prefix.pch */,
+				CD161D829A86098A429BCEF5A12121F3 /* YYYProgressHUD.debug.xcconfig */,
+				93D3CA1D23D5F639E5C5D5407C8210AA /* YYYProgressHUD.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YYYProgressHUD";
+			sourceTree = "<group>";
+		};
+		B1830B73E34DFEBA6C47261C5BFE2224 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				378E68C0F9952F889BCCCEDA301AD4F5 /* libPods-YYYProgressHUD.a */,
 				316C97EAD219230A096B2727FBE83B3D /* libYYYProgressHUD.a */,
 				403C8872378A6285092E8B0DC64A7FFD /* libYYYWeakProxy.a */,
-				AE9A139A8A70AF9857ADEDCFE7368AD3 /* YYYProgressHUD.bundle */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		926BC6A8056446A0AE5C88E21089CC6E /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CCDDEB8DA0F584078AF56517790B25C1 /* YYYProgressHUD */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		97F1358B84EECE9C7F41030B9F99CEF5 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1716800034E13367BBC0F703236554CE /* Pods-YYYProgressHUD */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		CCDDEB8DA0F584078AF56517790B25C1 /* YYYProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				AA92C83CEDA22F2FA4C84198920EF215 /* YYYIndefiniteAnimatedView.h */,
-				763C72982C6FF42E754FF7FEA9958FE2 /* YYYIndefiniteAnimatedView.m */,
-				EBAF4B318FE8EA212B022DAA10A2678A /* YYYLoadingHUDView.h */,
-				7B395AB3CABAF991F6CB65C8E4BF6A2C /* YYYLoadingHUDView.m */,
-				39E2E48529938443709E04C74C56DD1E /* YYYProgressHUD.h */,
-				FC9B3FB281D4523F86982C55D0FE69A2 /* YYYProgressHUD.m */,
-				9E64D255EB867505B817A73FB2E66B8F /* YYYTextHUDView.h */,
-				C750D88C0C0B235904F3AF8B44D3EA10 /* YYYTextHUDView.m */,
-				399CAD0CB346CCAFA4062736571601C0 /* Pod */,
-				F8594C08FD1DC05A1684EEE895C35366 /* Resources */,
-				0C486AC69362BB6DE6713A1305CEE452 /* Support Files */,
-			);
-			name = YYYProgressHUD;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				926BC6A8056446A0AE5C88E21089CC6E /* Development Pods */,
+				6EB4CF95281585DFE8E628B250BFFF99 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				65161B29C5264F5DD7DC9CAE6559C6DA /* Pods */,
-				810D15DC85A97A274EB08E9A59621190 /* Products */,
-				97F1358B84EECE9C7F41030B9F99CEF5 /* Targets Support Files */,
+				B1830B73E34DFEBA6C47261C5BFE2224 /* Products */,
+				29BEF1CB0F82532C3A4AC5E64E150A24 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -262,38 +221,37 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F8594C08FD1DC05A1684EEE895C35366 /* Resources */ = {
+		F9CC362027EE6C5EFF47084EE1E0A5A4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				10B4D4F31F90653B5125E27359D0741D /* angle-mask.png */,
-				3ADA41BF0C8F10B7771D63DC2DE3AACE /* angle-mask@2x.png */,
-				00857D37E373B576F4C717632DFDADBF /* angle-mask@3x.png */,
-				4778C79E4138AB8DF0D65F74F993B20F /* z1_27.png */,
-				07C68F8AA29F0F3AD4264CFFF2EF7DE5 /* z1_27@2x.png */,
-				F25EDFF581336FE0E2486F3C987CDB81 /* z1_27@3x.png */,
+				B2C9AD2EC2C57A5BF97A65E14A8BEE13 /* YYYWeakProxy-dummy.m */,
+				4EAD78D42E9DB28A3681A0A808A12F2B /* YYYWeakProxy-prefix.pch */,
+				DC613234642A6A7B37E0DA939F41CE81 /* YYYWeakProxy.debug.xcconfig */,
+				C6C63C54667A072EBFB77D9A0FB30F2B /* YYYWeakProxy.release.xcconfig */,
 			);
-			name = Resources;
+			name = "Support Files";
+			path = "../Target Support Files/YYYWeakProxy";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A7B0568BDEEE7C85F6F3487B3B233873 /* Headers */ = {
+		4D7B4AB13398DBCB8EDE79EAFC88D219 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				591C4B3140D90A93756DA5E8C23B06E7 /* YYYWeakProxy.h in Headers */,
+				681B2E949646EF6B51FBBDAA85EF2117 /* YYYIndefiniteAnimatedView.h in Headers */,
+				FC84A23B269E0EBD9577E373D310895F /* YYYLoadingHUDView.h in Headers */,
+				FE4189AB8951E67E7D7932B1F6D16854 /* YYYProgressHUD.h in Headers */,
+				6C32452663DC3E86677E319FE4AE0A19 /* YYYTextHUDView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BDB5DEE993D7751CF7BEB2AA42D1862D /* Headers */ = {
+		9938B458FDB3BA508041360FCACCDFE7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D28368829031DF465730242048DD6C3 /* YYYIndefiniteAnimatedView.h in Headers */,
-				C51504CAABDD0BE6904E0A446FFD0EC3 /* YYYLoadingHUDView.h in Headers */,
-				B3CBD32DDA82FE13DA87850541D86420 /* YYYProgressHUD.h in Headers */,
-				BADC984B18F422F6CB0332F5BB63FD02 /* YYYTextHUDView.h in Headers */,
+				15731248649057DA11C98B9C4461B5C3 /* YYYWeakProxy.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,30 +284,13 @@
 			productReference = 378E68C0F9952F889BCCCEDA301AD4F5 /* libPods-YYYProgressHUD.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		8D1E7F5518353D00C9E760A313CC46E4 /* YYYProgressHUD-YYYProgressHUD */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 59C3AE809A15CC96D35BDD9E703EC94C /* Build configuration list for PBXNativeTarget "YYYProgressHUD-YYYProgressHUD" */;
-			buildPhases = (
-				D5D947B0CBC75DA9D98B70F4D5F5354D /* Sources */,
-				2AFE2BC5186077EE2D64BED21B1459AC /* Frameworks */,
-				A7DF9D7D5439E5FBB19F77158719C92A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "YYYProgressHUD-YYYProgressHUD";
-			productName = "YYYProgressHUD-YYYProgressHUD";
-			productReference = AE9A139A8A70AF9857ADEDCFE7368AD3 /* YYYProgressHUD.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
 		B0C643054C453CD98056C7E4E1B31078 /* YYYWeakProxy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D050AA2DEEA8CAB823D5FB471035F9C5 /* Build configuration list for PBXNativeTarget "YYYWeakProxy" */;
+			buildConfigurationList = 8EFA5161459DD198ACF1775A9819A8EF /* Build configuration list for PBXNativeTarget "YYYWeakProxy" */;
 			buildPhases = (
-				A7B0568BDEEE7C85F6F3487B3B233873 /* Headers */,
-				CBB334B3A6890E8E94DF0D6DBA7929EF /* Sources */,
-				89C752AE7F0911794FC76E619B889FA8 /* Frameworks */,
+				9938B458FDB3BA508041360FCACCDFE7 /* Headers */,
+				E0359EAF6EBEE5EE0E17A0FDFE48EC23 /* Sources */,
+				DDF7CDD18C81F2B26B049728D580E55E /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -362,17 +303,16 @@
 		};
 		B4D5BE8A3ABA0A5169CFFCF3C5FC0B21 /* YYYProgressHUD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 143EBF121001F9627AD3933C7954945C /* Build configuration list for PBXNativeTarget "YYYProgressHUD" */;
+			buildConfigurationList = E3BD234A7DB3A6651F801F936A879D00 /* Build configuration list for PBXNativeTarget "YYYProgressHUD" */;
 			buildPhases = (
-				BDB5DEE993D7751CF7BEB2AA42D1862D /* Headers */,
-				9C68E280FF59FB78DD183BE3913F4C57 /* Sources */,
-				6981C203AF10E501596F6CD32CA76C08 /* Frameworks */,
+				4D7B4AB13398DBCB8EDE79EAFC88D219 /* Headers */,
+				6190300697F70329F8DB3421B2633DBB /* Sources */,
+				0D1901617984F6931D7DB7E937ACAC17 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2FA9467A68606256EEA293D52E5C5D6B /* PBXTargetDependency */,
-				014FF9FB34BF071941212FCDD420B4A8 /* PBXTargetDependency */,
+				62BE0054A57BCCD78069CA105A528D24 /* PBXTargetDependency */,
 			);
 			name = YYYProgressHUD;
 			productName = YYYProgressHUD;
@@ -394,35 +334,19 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 810D15DC85A97A274EB08E9A59621190 /* Products */;
+			productRefGroup = B1830B73E34DFEBA6C47261C5BFE2224 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				89B77ED00F24F51D98F7B1AF4DF00C63 /* Pods-YYYProgressHUD */,
 				B4D5BE8A3ABA0A5169CFFCF3C5FC0B21 /* YYYProgressHUD */,
-				8D1E7F5518353D00C9E760A313CC46E4 /* YYYProgressHUD-YYYProgressHUD */,
 				B0C643054C453CD98056C7E4E1B31078 /* YYYWeakProxy */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		A7DF9D7D5439E5FBB19F77158719C92A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B39C202BC442618DB3C041557CADDB6C /* angle-mask.png in Resources */,
-				B1891112C3352905EE495CE5C13826DD /* angle-mask@2x.png in Resources */,
-				A3A6FAACB8B7A4840E0718F28DD32AC0 /* angle-mask@3x.png in Resources */,
-				A19BE51ECA036DAE9C6896BCDE4BBB42 /* z1_27.png in Resources */,
-				CC3470D416E71ACDAA4862F7305B4638 /* z1_27@2x.png in Resources */,
-				7E3C24D7E1D116F32A68F9D3CA130E11 /* z1_27@3x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5704551E29B0D5565809E682797C64CE /* Sources */ = {
@@ -433,54 +357,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C68E280FF59FB78DD183BE3913F4C57 /* Sources */ = {
+		6190300697F70329F8DB3421B2633DBB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE5CACB664D0D93030881AFCAEBB1CDE /* YYYIndefiniteAnimatedView.m in Sources */,
-				37C487015055891A372819A29F6BBF8C /* YYYLoadingHUDView.m in Sources */,
-				37222CE23EAB1A43F0BB9601E5B91602 /* YYYProgressHUD-dummy.m in Sources */,
-				4EB2EB3BF726B080DBD433034AE5DEA0 /* YYYProgressHUD.m in Sources */,
-				3A658F8896322A0F42DAB32069B18622 /* YYYTextHUDView.m in Sources */,
+				FC4365032417D2DDCE5DE26F4D8A98BF /* YYYIndefiniteAnimatedView.m in Sources */,
+				29DDEFAAAB5E94AF559D1809085BB3C6 /* YYYLoadingHUDView.m in Sources */,
+				8B6695A1D6BAD286E8FEAE29D22E1D1A /* YYYProgressHUD-dummy.m in Sources */,
+				BD83D4D4A50410CD97002310E8FDABED /* YYYProgressHUD.m in Sources */,
+				7022586181DB0D6BCC3C773ADF53BEAF /* YYYTextHUDView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CBB334B3A6890E8E94DF0D6DBA7929EF /* Sources */ = {
+		E0359EAF6EBEE5EE0E17A0FDFE48EC23 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46F773DADFBE2B15C7B598FB2C304CEB /* YYYWeakProxy-dummy.m in Sources */,
-				DA77EC1AA53CEE2C7563641548416590 /* YYYWeakProxy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D5D947B0CBC75DA9D98B70F4D5F5354D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				BAA0DE67D80025AAC65BD88987192E88 /* YYYWeakProxy-dummy.m in Sources */,
+				FD1B54B6D7DD386ABAD3E2132A9D52A5 /* YYYWeakProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		014FF9FB34BF071941212FCDD420B4A8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YYYWeakProxy;
-			target = B0C643054C453CD98056C7E4E1B31078 /* YYYWeakProxy */;
-			targetProxy = C52B11B617C473D747416458264E8C4A /* PBXContainerItemProxy */;
-		};
 		16A499227CE5109FBB033FA22A46DEE7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YYYProgressHUD;
 			target = B4D5BE8A3ABA0A5169CFFCF3C5FC0B21 /* YYYProgressHUD */;
 			targetProxy = 8160AC6A3422C9E9890A313A7E9417AF /* PBXContainerItemProxy */;
 		};
-		2FA9467A68606256EEA293D52E5C5D6B /* PBXTargetDependency */ = {
+		62BE0054A57BCCD78069CA105A528D24 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "YYYProgressHUD-YYYProgressHUD";
-			target = 8D1E7F5518353D00C9E760A313CC46E4 /* YYYProgressHUD-YYYProgressHUD */;
-			targetProxy = 3714B8EE653A63513355E5C14BCA9E8F /* PBXContainerItemProxy */;
+			name = YYYWeakProxy;
+			target = B0C643054C453CD98056C7E4E1B31078 /* YYYWeakProxy */;
+			targetProxy = BD8D77694EA1FA4ACB256365D00FBE27 /* PBXContainerItemProxy */;
 		};
 		ADF3869201DE750E4955F4FAA530D8DD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -491,21 +402,21 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2D3F59C315A1FA6BC013DFB899AA5E05 /* Release */ = {
+		053A5D33A4A422D5AF3567E9A660849A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE2BB6CFC4FAB2C55014162F1D84AC8A /* YYYProgressHUD.xcconfig */;
+			baseConfigurationReference = C6C63C54667A072EBFB77D9A0FB30F2B /* YYYWeakProxy.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/YYYProgressHUD/YYYProgressHUD-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/YYYWeakProxy/YYYWeakProxy-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = YYYProgressHUD;
-				PRODUCT_NAME = YYYProgressHUD;
+				PRODUCT_MODULE_NAME = YYYWeakProxy;
+				PRODUCT_NAME = YYYWeakProxy;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -517,7 +428,7 @@
 		};
 		3C06F37E4D9121EE32AC54CA4302FB72 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F279E718525B69B5A17DEBB0D4C05C7 /* Pods-YYYProgressHUD.debug.xcconfig */;
+			baseConfigurationReference = 5F1B4BA8C03C43CE0AA1F6E541BD1950 /* Pods-YYYProgressHUD.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -597,9 +508,56 @@
 			};
 			name = Release;
 		};
+		5E0C02E832EABC07CC222C4109B48EC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93D3CA1D23D5F639E5C5D5407C8210AA /* YYYProgressHUD.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YYYProgressHUD/YYYProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YYYProgressHUD;
+				PRODUCT_NAME = YYYProgressHUD;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FB45EFA148AD5F303C0B09EA646527E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD161D829A86098A429BCEF5A12121F3 /* YYYProgressHUD.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YYYProgressHUD/YYYProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YYYProgressHUD;
+				PRODUCT_NAME = YYYProgressHUD;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		A05714CBC9D0FE196A8947550EBAF876 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B6982AB3649517A86ECF51DEA1F612DA /* Pods-YYYProgressHUD.release.xcconfig */;
+			baseConfigurationReference = BAEE02FE64900673FE98B67F214F282E /* Pods-YYYProgressHUD.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -684,90 +642,9 @@
 			};
 			name = Debug;
 		};
-		AA7D39C6F6517B8FFD160533A24982E7 /* Release */ = {
+		BC9573E9D74965F56714DC748C83CC51 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE2BB6CFC4FAB2C55014162F1D84AC8A /* YYYProgressHUD.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YYYProgressHUD";
-				IBSC_MODULE = YYYProgressHUD;
-				INFOPLIST_FILE = "Target Support Files/YYYProgressHUD/ResourceBundle-YYYProgressHUD-YYYProgressHUD-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = YYYProgressHUD;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		B3D3D7CB1C3CCFD51DE17EF26F7B886A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 388D89DD5466B65412E76CB28FF245B4 /* YYYWeakProxy.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/YYYWeakProxy/YYYWeakProxy-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = YYYWeakProxy;
-				PRODUCT_NAME = YYYWeakProxy;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		B5D8E014771FD87637B9A5D26AE44F1B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE2BB6CFC4FAB2C55014162F1D84AC8A /* YYYProgressHUD.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/YYYProgressHUD/YYYProgressHUD-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = YYYProgressHUD;
-				PRODUCT_NAME = YYYProgressHUD;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		BD3447F94B1925EC26834E86D4DA8B6D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE2BB6CFC4FAB2C55014162F1D84AC8A /* YYYProgressHUD.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YYYProgressHUD";
-				IBSC_MODULE = YYYProgressHUD;
-				INFOPLIST_FILE = "Target Support Files/YYYProgressHUD/ResourceBundle-YYYProgressHUD-YYYProgressHUD-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = YYYProgressHUD;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		D897E9C69E51B713A2743F0803FA23FC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 388D89DD5466B65412E76CB28FF245B4 /* YYYWeakProxy.xcconfig */;
+			baseConfigurationReference = DC613234642A6A7B37E0DA939F41CE81 /* YYYWeakProxy.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -791,15 +668,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		143EBF121001F9627AD3933C7954945C /* Build configuration list for PBXNativeTarget "YYYProgressHUD" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B5D8E014771FD87637B9A5D26AE44F1B /* Debug */,
-				2D3F59C315A1FA6BC013DFB899AA5E05 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -809,11 +677,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		59C3AE809A15CC96D35BDD9E703EC94C /* Build configuration list for PBXNativeTarget "YYYProgressHUD-YYYProgressHUD" */ = {
+		8EFA5161459DD198ACF1775A9819A8EF /* Build configuration list for PBXNativeTarget "YYYWeakProxy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BD3447F94B1925EC26834E86D4DA8B6D /* Debug */,
-				AA7D39C6F6517B8FFD160533A24982E7 /* Release */,
+				BC9573E9D74965F56714DC748C83CC51 /* Debug */,
+				053A5D33A4A422D5AF3567E9A660849A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -827,11 +695,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D050AA2DEEA8CAB823D5FB471035F9C5 /* Build configuration list for PBXNativeTarget "YYYWeakProxy" */ = {
+		E3BD234A7DB3A6651F801F936A879D00 /* Build configuration list for PBXNativeTarget "YYYProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D897E9C69E51B713A2743F0803FA23FC /* Debug */,
-				B3D3D7CB1C3CCFD51DE17EF26F7B886A /* Release */,
+				5FB45EFA148AD5F303C0B09EA646527E /* Debug */,
+				5E0C02E832EABC07CC222C4109B48EC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

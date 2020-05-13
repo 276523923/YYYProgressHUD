@@ -1,9 +1,9 @@
 {
   "name": "YYYProgressHUD",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "summary": "YYYProgressHUD",
-  "description": "this is YYYProgressHUD",
-  "homepage": "https://gitlab.com/276523923/YYYProgressHUD.git",
+  "description": "加载，文字提示",
+  "homepage": "https://github.com/276523923/YYYProgressHUD.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "276523923@qq.com": "yyyue@vip.qq.com"
   },
   "source": {
-    "git": "git@gitlab.com:276523923/YYYProgressHUD.git",
-    "tag": "1.0.0"
+    "git": "https://github.com/276523923/YYYProgressHUD.git",
+    "tag": "1.0.3"
   },
   "platforms": {
     "ios": "8.0"
@@ -24,11 +24,6 @@
   "dependencies": {
     "YYYWeakProxy": [
 
-    ]
-  },
-  "resource_bundles": {
-    "YYYProgressHUD": [
-      "YYYProgressHUD/Assets/**/*"
     ]
   }
 }
