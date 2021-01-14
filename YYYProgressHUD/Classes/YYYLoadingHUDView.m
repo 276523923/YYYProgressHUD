@@ -59,7 +59,7 @@
         _indefiniteAnimatedView = [[YYYIndefiniteAnimatedView alloc] initWithFrame:CGRectZero];
         _indefiniteAnimatedView.strokeThickness = 2;
         _indefiniteAnimatedView.strokeColor = [UIColor colorWithRed:1 green:52/255.F blue:49/255.f alpha:1];
-        _indefiniteAnimatedView.radius = 25;
+        _indefiniteAnimatedView.radius = 20;
         [_indefiniteAnimatedView sizeToFit];
         CGSize size = [_indefiniteAnimatedView sizeThatFits:CGSizeZero];
         _indefiniteAnimatedView.frame = CGRectMake(0, 0, size.width, size.height);

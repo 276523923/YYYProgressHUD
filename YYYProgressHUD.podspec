@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = 'YYYProgressHUD'
-  s.version      = '1.0.0'
+  s.version      = '1.0.1'
   s.summary      = 'YYYProgressHUD'
 
   s.description  = 'YYYProgressHUD 加载，文字提示'

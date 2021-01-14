@@ -7,7 +7,7 @@ DEPENDENCIES:
   - YYYProgressHUD (from `../`)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/CocoaPods/Specs:
     - YYYWeakProxy
 
 EXTERNAL SOURCES:
@@ -20,4 +20,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 1eeceea033944c737215d61ed6b2ee2ab026497c
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.10.0

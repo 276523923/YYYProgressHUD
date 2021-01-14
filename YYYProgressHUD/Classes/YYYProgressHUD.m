@@ -14,6 +14,8 @@
 @property (nonatomic, strong, readwrite) UIView *currentView;
 @property (nonatomic, strong, readwrite) YYYLoadingHUDView *loadingView;
 @property (nonatomic, strong, readwrite) YYYTextHUDView *textView;
+@property (nonatomic, strong, readwrite) YYYRingShapedView *ringShapedView;
+
 @property (nonatomic, copy) YYYProgressHUDBlock dismissBlock;
 @property (nonatomic, strong) YYYWeakProxy *weakProxy;
 @property (nonatomic, strong) NSTimer *timer;
@@ -36,22 +38,14 @@
     return hud;
 }
 
-+ (BOOL)hideHUDForView:(UIView *)view model:(YYYProgressHUDModel)model {
-    YYYProgressHUD *hud = [self HUDForView:view model:model];
-    if (hud != nil) {
-        [hud dismiss];
-        return YES;
-    }
-    return NO;
++ (void)hideHUDForView:(UIView *)view model:(YYYProgressHUDModel)model {
+    NSArray *array = [self HUDsForView:view model:model];
+    [array makeObjectsPerformSelector:@selector(dismiss)];
 }
 
-+ (BOOL)hideHUDForView:(UIView *)view {
-    YYYProgressHUD *hud = [self HUDForView:view];
-    if (hud != nil) {
-        [hud dismiss];
-        return YES;
-    }
-    return NO;
++ (void)hideHUDForView:(UIView *)view {
+    NSArray *array = [self HUDsForView:view];
+    [array makeObjectsPerformSelector:@selector(dismiss)];
 }
 
 + (nullable instancetype)HUDForView:(UIView *)view {
@@ -66,6 +60,38 @@
         }
     }
     return nil;
+}
+
++ (NSArray *)HUDsForView:(UIView *)view {
+    if (!view) {
+        view = [UIApplication sharedApplication].keyWindow;
+    }
+    NSMutableArray *array = [NSMutableArray array];
+    NSEnumerator *subviewsEnum = [view.subviews reverseObjectEnumerator];
+    for (UIView *subview in subviewsEnum) {
+        if ([subview isKindOfClass:self]) {
+            YYYProgressHUD *hud = (YYYProgressHUD *)subview;
+            [array addObject:hud];
+        }
+    }
+    return array;
+}
+
++ (NSArray *)HUDsForView:(UIView *)view model:(YYYProgressHUDModel)model {
+    if (!view) {
+        view = [UIApplication sharedApplication].keyWindow;
+    }
+    NSMutableArray *array = [NSMutableArray array];
+    NSEnumerator *subviewsEnum = [view.subviews reverseObjectEnumerator];
+    for (UIView *subview in subviewsEnum) {
+        if ([subview isKindOfClass:self]) {
+            YYYProgressHUD *hud = (YYYProgressHUD *)subview;
+            if (hud.model == model) {
+                [array addObject:hud];
+            }
+        }
+    }
+    return array;
 }
 
 + (instancetype)HUDForView:(UIView *)view model:(YYYProgressHUDModel)model {
@@ -93,11 +119,11 @@
     return [self showLoadingHUDAddedTo:nil];
 }
 
-+ (BOOL)hideLoadingHUDForView:(UIView * _Nullable)view {
++ (void)hideLoadingHUDForView:(UIView * _Nullable)view {
     return [self hideHUDForView:view model:YYYProgressHUDModelLoading];
 }
 
-+ (BOOL)hideLoadingHUD {
++ (void)hideLoadingHUD {
     return [self hideLoadingHUDForView:nil];
 }
 
@@ -125,12 +151,30 @@
     return [self showTextHUDAddedTo:nil text:text didDismissBlock:didDismissBlock];
 }
 
-+ (BOOL)hideTextHUDForView:(UIView *)view {
++ (void)hideTextHUDForView:(UIView *)view {
     return [self hideHUDForView:view model:YYYProgressHUDModelText];
 }
 
-+ (BOOL)hideTextHUD {
++ (void)hideTextHUD {
     return [self hideTextHUDForView:nil];
+}
+
+#pragma mark - YYYRingShapedView
+
++ (instancetype)showRingShapedHUDAddedTo:(UIView * _Nullable)view {
+    return [self showHUDAddedTo:view model:YYYProgressHUDModelRingShaped];
+}
+
++ (instancetype)showRingShapedHUD {
+    return [self showRingShapedHUDAddedTo:nil];
+}
+
++ (void)hideRingShapedHUDForView:(UIView * _Nullable)view {
+    return [self hideHUDForView:view model:YYYProgressHUDModelRingShaped];
+}
+
++ (void)hideRingShapedHUD {
+    return [self hideRingShapedHUDForView:nil];
 }
 
 #pragma mark - custom view
@@ -147,11 +191,11 @@
     return [self showCustomHUDAddedTo:nil customView:customView];
 }
 
-+ (BOOL)hideCustomHUDForView:(UIView *)view {
++ (void)hideCustomHUDForView:(UIView *)view {
     return [self hideHUDForView:view model:YYYProgressHUDModelCustom];
 }
 
-+ (BOOL)hideCustomHUD {
++ (void)hideCustomHUD {
     return [self hideCustomHUDForView:nil];
 }
 
@@ -251,6 +295,8 @@
             return self.loadingView;
         case YYYProgressHUDModelText:
             return self.textView;
+        case YYYProgressHUDModelRingShaped:
+            return self.ringShapedView;
         case YYYProgressHUDModelCustom:
             return self.customView;
         default:
@@ -300,6 +346,14 @@
         [_textView addObserver:self forKeyPath:@"message" options:NSKeyValueObservingOptionNew context:NULL];
     }
     return _textView;
+}
+
+- (YYYRingShapedView *)ringShapedView {
+    if (!_ringShapedView) {
+        _ringShapedView = [YYYRingShapedView new];
+        [_ringShapedView sizeToFit];
+    }
+    return _ringShapedView;
 }
 
 - (void)setCustomView:(UIView *)customView {
